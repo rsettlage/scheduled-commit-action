@@ -33,7 +33,7 @@ jobs:
         run: |
           install.packages('remotes')
           install.packages('sessioninfo')
-          install.packages('gt', repos="https://cran.rstudio.com")
+          install.packages('gt')
           install.packages('tidyquant')
           install.packages('timetk')
           install.packages('tidyverse')
